@@ -1,0 +1,366 @@
+/* home page  */
+video{
+    width: 500px;
+    height: 400px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}/* Header */
+header {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background: #292a2a;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+/* Main Container */
+#d1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Left Section (Logo & My Home) */
+.left-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Logo */
+.logo {
+    width: 60px;
+    height: 50px;
+}
+
+/* Center Section (Navigation) */
+.center-section {
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    gap: 50px; /* Equal spacing between items */
+    padding: 0;
+    margin: 0;
+}
+
+.nav li {
+    position: relative;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+/* Right Section (Login) */
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Login Button */
+#login button {
+    width: 90px;
+    padding: 5px 10px;
+    border: none;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#login button:hover {
+    background: lightgray;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    display: none;
+    padding: 10px 0;
+    list-style: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Dropdown Items */
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown-menu li:hover {
+    background: #f0f0f0;
+}
+
+/* Commercial */
+#Commercial {
+    text-align: center;
+}
+
+#com {
+    display: flex;
+    background-color: rgb(163, 226, 235, 0.5);
+    /* overflow: scroll; */
+    white-space: nowrap;
+    padding: 10px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#comI {
+    width: 300px;
+    height: 200px;
+    margin-right: 2px;
+}
+
+.img {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+img:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5), -10px -10px 15px rgba(0, 0, 0, 0.5);
+    transition: 1.0s ease-in-out;
+    transform: scale(1.1);
+}
+
+#testimonials {
+    margin-top: 50px;
+    background-color: gainsboro;
+    font: 25px bolder;
+    padding-top: 5px;
+}
+
+#testimonials1 {
+    display: flex;
+}
+
+#testimonials2 {
+    display: flex;
+}
+
+#testi {
+    background-color: rgb(86, 174, 187);
+    margin-top: 20px;
+    margin-left: 80px;
+    text-align: center;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 300px;
+    color: rgb(13, 13, 13);
+    font: 20px bolder;
+    padding: 10px;
+}
+
+
+.sectionContact{
+    display: flex;
+    background-color: #a9dbdb;
+}
+.asideCont1{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(103, 155, 201);
+}
+
+details {
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+#bq {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+
+#ContactF1 {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    font: 20px;
+}
+.Cf:hover{
+    background-color: #a9dbdb;
+}
+#submit {
+    background-color: rgb(164, 164, 238);
+    color: white;
+    font: 30px bold;
+}
+.address{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(253, 208, 253);
+    padding: 30px;
+    margin: 0;
+    
+}
+.logoImg{
+    width: 60px;
+    height: 50px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: underline rgb(255, 187, 0);
+}
+
+footer {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+#socialMedia {
+    margin-top: 10px;
+    margin-left: 910px;
+}
+
+#apps {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+/* --------------------------------------- */
+body {
+    background-color: rgb(244, 218, 186);
+}
+
+article {
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Residential */
+.ResBody {
+    background-color: rgb(244, 218, 186);
+}
+
+.resi {
+    font-family: monospace;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline wavy burlywood;
+}
+
+.section1 {
+    display: flex;
+    margin: 30px;
+}
+
+.section2 {
+    display: flex;
+    margin: 30px;
+}
+
+.image {
+    position: relative;
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+}
+
+.text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* Black transparent */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+.image:hover .text {
+    opacity: 1;
+}
+
+/* COntact US */
+
+#ContactUs {
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    font: 20px;
+}
+.ContT{
+    margin: 50px;
+}
+
+.input{
+    margin-left: 50px;
+}
+fieldset{
+    margin-left: 350px;
+    width: 600px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.ContT tr{
+    text-align: left;
+    padding-left: 30px;
+}
